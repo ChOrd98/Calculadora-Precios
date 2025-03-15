@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Precios por Caja</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Calculadora de Precios Abarrotes</h1>
+
+    <label>Cantidad: <input type="number" id="cantidad" /></label>
+    <label>Precio por Caja: <input type="number" id="precioCaja" /></label>
+    <button onclick="calcular()">Calcular</button>
+
+    <div class="resultados">
+      <p><strong>Valor Unitario:</strong> <span id="valorUnitario">-</span></p>
+      <p><strong>Precio + IVA (19%):</strong> <span id="precioIVA">-</span></p>
+      <p><strong>Precio + IVA + 30%:</strong> <span id="precio30">-</span></p>
+    
+      <div class="compania">
+        <p>Almacén y Abarrotes María Zulema Prado F</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

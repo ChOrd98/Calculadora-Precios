@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 30px;
+  }
+  
+  .container {
+    background-color: #fff;
+    max-width: 500px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  input {
+    padding: 5px;
+    margin-left: 10px;
+    width: 150px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .resultados {
+    margin-top: 25px;
+  }
+  
+  .resultados p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .compania {
+    text-align: right;
+    margin-top: 40px;
+    font-style: italic;
+    color: #a7a1a1;
+    font-size: 8px;
+  }
